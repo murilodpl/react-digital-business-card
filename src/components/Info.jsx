@@ -5,7 +5,7 @@ import linkedinImg from '../img/linkedin.svg'
 export default function Info() {
     return (
         <div className='infoSection'>
-            <img width="317px" height="317px" src={profileImg} alt="Imagem de perfil Murilo" />
+            <img class="profileImg" width="317px" height="317px" src={profileImg} alt="Imagem de perfil Murilo" />
 
             <div className="infoContent">
                 <h1>Murilo Leopoldino</h1>
