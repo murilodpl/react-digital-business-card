@@ -1,5 +1,9 @@
 # Digital Business Card made with React
 
-## A solo project from Scrimba
+### A solo project from Scrimba
 
-### npm run dev
+``` 
+cd myfolder
+npm install
+npm run dev
+```
