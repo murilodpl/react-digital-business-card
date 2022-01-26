@@ -20,9 +20,10 @@ a:hover {
 
 
 /* Info.js */
-.infoSection img {
+.infoSection .profileImg {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
+  height: auto;
 }
 
 .infoSection .infoContent {
