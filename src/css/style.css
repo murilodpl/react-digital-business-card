@@ -1,0 +1,130 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #23252C;
+}
+
+a:hover {
+  opacity: 0.75;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* App.js */
+.card {
+  max-width: 317px;
+  margin: auto;
+  background: #1A1B21;
+}
+
+
+/* Info.js */
+.infoSection img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.infoSection .infoContent {
+  text-align: center;
+  padding: 2rem;
+}
+
+.infoSection .infoContent h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.infoSection .infoContent h2 {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+  margin: 5px 0;
+}
+
+.infoSection .infoContent small {
+  font-size: 10.24px;
+  color: #F5F5F5;
+}
+
+.infoSection .infoContent .btnDiv {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 12px;
+}
+
+.infoSection .infoContent .btnDiv a {
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 9px 13px 9px 11px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+
+.infoSection .infoContent .btnDiv img {
+  margin-right: 5px;
+}
+
+.infoSection .infoContent .btnDiv .btnEmail {
+  color: #374151;
+  background: #FFFFFF;
+  margin-right: 8px;
+}
+
+.infoSection .infoContent .btnDiv .btnLinkedin {
+  color: #fff;
+  background: #5093E2;
+  margin-left: 8px;
+}
+
+/* About AND Interests */
+.aboutSection {
+  padding: 0 2rem .5rem;
+}
+
+.interestsSection {
+  padding: 0 2rem 2rem;
+}
+
+.aboutSection h3,
+.interestsSection h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #F5F5F5;
+  line-height: 150%;
+  margin: 0;
+}
+
+.aboutSection p,
+.interestsSection p {
+  font-size: 10.24px;
+  color: #DCDCDC;
+  line-height: 150%;
+  margin-top: 3px;
+}
+
+
+/* Footer */
+footer {
+  background: #161619;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  margin: 0 10px;
+}
